@@ -8,11 +8,11 @@ A **production-ready microservice** built with Node.js, Express, and MongoDB for
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 🚀 Project Overview
+##  Project Overview
 
 This microservice implements a **secure user management system** with JWT-based authentication, role-based access control, and comprehensive API endpoints. Built following **RESTful principles** and **clean architecture patterns**, it's designed for enterprise environments requiring scalable user authentication.
 
-### 🏗️ **Architecture Highlights**
+###  **Architecture Highlights**
 - **Microservice Architecture** - Containerized, independently deployable
 - **Security-First Design** - bcrypt hashing, JWT tokens, CORS protection
 - **Database Abstraction** - Mongoose ODM with schema validation
@@ -20,16 +20,16 @@ This microservice implements a **secure user management system** with JWT-based 
 - **Environment Configuration** - 12-factor app principles with dotenv
 - **Container Orchestration** - Docker Compose with MongoDB integration
 
-## 📋 Features
+##  Features
 
-### 🔑 **Authentication & Authorization**
+###  **Authentication & Authorization**
 - ✅ **User Registration** with secure password hashing (bcrypt)
 - ✅ **JWT Authentication** with configurable token expiration
 - ✅ **Role-Based Access Control** (Student, Instructor, Admin)
 - ✅ **Password Security** - Minimum complexity requirements
 - ✅ **CORS Protection** - Cross-origin request handling
 
-### 🛠️ **Technical Features**
+###  **Technical Features**
 - ✅ **RESTful API Design** - Standard HTTP methods and status codes
 - ✅ **Input Validation** - Mongoose schema validation
 - ✅ **Error Handling** - Centralized error middleware with logging
@@ -37,7 +37,7 @@ This microservice implements a **secure user management system** with JWT-based 
 - ✅ **Container Ready** - Docker and Docker Compose support
 - ✅ **Test Coverage** - Jest and Supertest integration
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ### **Prerequisites**
 - Node.js 18+ 
@@ -73,7 +73,7 @@ docker-compose ps
 docker-compose logs -f
 ```
 
-## 📡 API Documentation
+##  API Documentation
 
 ### **Base URL**: `http://localhost:5000/api/users`
 
@@ -118,7 +118,7 @@ curl -X POST http://localhost:5000/api/users/login \
 }
 ```
 
-## 🏗️ Architecture & Design Patterns
+##  Architecture & Design Patterns
 
 ### **Project Structure**
 ```
@@ -143,7 +143,7 @@ src/
     └── logger.js
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -156,7 +156,7 @@ npm run test:coverage
 npm run test:watch
 ```
 
-## 🐳 Docker & DevOps
+##  Docker & DevOps
 
 ### **Container Architecture**
 ```yaml
@@ -174,8 +174,9 @@ services:
       - mongodb_data:/data/db
 ```
 
-## 👨‍💻 About the Senior Software Engineer
+##  About the Senior Software Engineer
 
 **Rita Jindal** - Software Engieer  
 
 *Passionate about building scalable, secure, and maintainable software solutions. Experienced in microservices architecture, cloud-native, and full-stack software development.*
+
